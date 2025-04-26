@@ -2,7 +2,7 @@
 # @time:4/11/25 6:13 PM
 # @Author : Yuqi Zhang
 # @Email : yzhan135@kent.edu
-# @File : benchmark.py
+# @File : PCA_vis.py
 
 import dash
 from dash import dcc, html, Input, Output, State
