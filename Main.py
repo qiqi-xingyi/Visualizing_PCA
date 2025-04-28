@@ -159,8 +159,6 @@ def update_parallel(selectedData, fig_parallel_state):
     new_fig.update_layout(title="High-Dimensional View (Parallel Coordinates, based on 5 features)")
     return new_fig
 
-
-
 @app.callback(
     Output("scatter-plot", "figure"),
     Input("parallel-plot", "hoverData"),
@@ -192,7 +190,6 @@ def update_scatter(hoverData, current_fig):
     else:
         fig.update_traces(marker=new_marker)
     return fig
-
 
 if __name__ == '__main__':
     app.run(debug=True)
